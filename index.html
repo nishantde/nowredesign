@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
+    <title>Network for the Open Web</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bulma-divider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
@@ -14,10 +16,8 @@
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="assets/images/logo.png" alt="Logo">
-              </a>
+            <div class="navbar-brand animated flash">
+                <img src="assets/images/logo.png" style="width: 40px; height: 40px" alt="Logo">
               <span class="navbar-burger burger" data-target="navbarMenuHeroB">
                 <span></span>
                 <span></span>
@@ -26,7 +26,7 @@
             </div>
             <div id="navbarMenuHeroB" class="navbar-menu">
               <div class="navbar-end">
-                <span class="navbar-item">
+                <span class="navbar-item animated bounceInRight">
                   <a href="https://github.com/nowmozillaclub" target="_blank" class="button is-success">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -34,7 +34,7 @@
                     <span>Github</span>
                   </a>
                 </span>
-                <span class="navbar-item">
+                <span class="navbar-item animated bounceInRight">
                   <a href="https://facebook.com/nowmozillaclub" target="_blank" class="button is-success">
                     <span class="icon">
                       <i class="fab fa-facebook"></i>
@@ -42,7 +42,7 @@
                     <span>Facebook</span>
                   </a>
                 </span>
-                <span class="navbar-item">
+                <span class="navbar-item animated bounceInRight">
                   <a href="https://twitter.com/nowmozillaclub" target="_blank" class="button is-success">
                     <span class="icon">
                       <i class="fab fa-twitter"></i>
@@ -50,7 +50,7 @@
                     <span>Twitter</span>
                   </a>
                 </span>
-                <span class="navbar-item">
+                <span class="navbar-item animated bounceInRight">
                   <a href="https://instagram.com/nowmozillaclub" target="_blank" class="button is-success">
                     <span class="icon">
                       <i class="fab fa-instagram"></i>
@@ -58,7 +58,7 @@
                     <span>Instagram</span>
                   </a>
                 </span>
-                <span class="navbar-item">
+                <span class="navbar-item animated bounceInRight">
                   <a href="mailto:nowmozillaclub@gmail.com" target="_blank" class="button is-success">
                     <span class="icon">
                       <i class="fas fa-envelope"></i>
@@ -74,10 +74,10 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title">
+          <p class="title animated tada">
             Network for the Open Web
           </p>
-          <p class="subtitle">
+          <p class="subtitle animated bounceInUp">
             A Mozilla Club
           </p>
         </div>
@@ -87,13 +87,13 @@
         <nav class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>
-              <li class="tab" onclick="openTab(event,'About')">
+              <li class="is-active">
                 <a>About</a>
               </li>
-              <li class="tab" onclick="openTab(event,'Team')">
+              <li>
                 <a>Team</a>
               </li>
-              <li class="tab" onclick="openTab(event,'Events')">
+              <li>
                 <a>Events</a>
               </li>
             </ul>
