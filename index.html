@@ -12,7 +12,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-    <section class="hero is-success is-large">
+    <section class="hero is-success is-medium">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
@@ -87,13 +87,13 @@
         <nav class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>
-              <li class="is-active">
+              <li class="is-active" id="about">
                 <a>About</a>
               </li>
-              <li>
+              <li id="team">
                 <a>Team</a>
               </li>
-              <li>
+              <li id="events">
                 <a>Events</a>
               </li>
             </ul>
@@ -101,6 +101,26 @@
         </nav>
       </div>
     </section>
+
+    <section class="section">
+      <div id="content-about">
+        <p>
+          Test About
+        </p>
+      </div>
+      <div id="content-team" style="display:none">
+        <p>
+          Test Team
+        </p>
+      </div>
+      <div id="content-events" style="display:none">
+        <p>
+          Test Events
+        </p>
+      </div>
+    </section>
+
   <script type="text/javascript" src="lib/main.js"></script>
-  </body>
+  <script type="text/javascript" src="lib/tabs.js"></script>
+</body>
 </html>
