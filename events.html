@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Network for the Open Web</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="smoothscroll.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+</head>
+
+<body>
+	
+	<h1>Events</h1>
+
+	<div id="page-wrap">
+		
+		<div class="post">
+			<h2>Android Competition '18</h2>
+			<div class="events">
+				<img src="assets/events/android/DSC06422.JPG" />
+				<p></p>
+				<p class="details">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p>
+			</div>
+		</div>
+		
+		<div class="post">
+			<h2>Saavishkaar '18</h2>
+			<div class="events">
+				<img src="assets/events/saavishkaar/DSC06256.JPG" />
+				<p></p>
+				<p class="details">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p>
+			</div>
+		</div>
+		
+		<div class="post">
+			<h2>GameScript</h2>
+			<div class="events">
+				<img src="assets/events/gamescript/gamescript.png" />
+				<p></p>
+				<p class="details">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p>
+			</div>
+		</div>
+		
+		<div class="post">
+			<h2>Recruitments</h2>
+			<div class="events">
+				<img src="assets/events/recruitments/recruitment.png" />
+				<p></p>
+				<p class="details">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p>
+			</div>
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>
