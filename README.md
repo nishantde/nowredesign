@@ -1,4 +1,4 @@
--# nowmozillaclub.github.io
+# nowmozillaclub.github.io
 The Official website of Network for the Open Web - A Mozilla Campus Club
 
 N.O.W. was founded in 2018 with one purpose; well *technically*, three interwoven principles:
@@ -15,4 +15,4 @@ We're into everything Open Source and all things Secure.
 Check out the [website](http://nowmozilla.club) and stay tuned for more updates!
 
 
-*This redesign was created by Rohit Choudhari and Nishant Deshpande as part of the 2019 facelift*
+*This redesign was created by Rohit Choudhari and Nishant Deshpande as part of the 2019 facelift*.
