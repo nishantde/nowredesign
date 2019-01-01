@@ -12,7 +12,7 @@
 // Update the blue shade, used for links
 // $blue: #06bcef;
 $info: #ffb94a;
-$footer-padding: 1rem 1rem 1rem;
+$white-smoke: #F5F5F5;
 // Add pink and its invert
 // $pink: #ff8080;
 // $pink-invert: #fff;
@@ -27,4 +27,52 @@ $footer-background-color: $info;
 
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
-// html {background-color: $green;}
+html {
+  background-color: $white-smoke;
+}
+
+.members {
+    height: 180px;
+    width: 180px;
+    top: 5%;
+    bottom: 5%;
+}
+
+.content-gap {
+  padding-left: 20px;
+}
+
+.member-content-adjustment {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.photo {
+  position: relative;
+}
+
+.middle-text {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.photo:hover .members {
+opacity: 0.3;
+}
+
+.photo:hover .middle-text {
+  opacity: 1;
+}
+
+.member-description {
+  /* background-color: #4CAF50; */
+  color: black;
+  font-size: 22px;
+  padding: 16px 32px;
+}
